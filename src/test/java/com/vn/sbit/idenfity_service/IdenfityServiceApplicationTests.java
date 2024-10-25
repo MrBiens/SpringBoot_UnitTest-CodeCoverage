@@ -11,7 +11,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-@SpringBootTest
+@SpringBootTest //@SpringBootTest(classes = IdenfityServiceApplicationTests.class)
+
 class IdenfityServiceApplicationTests {
 
 	private static final Logger log = LoggerFactory.getLogger(IdenfityServiceApplicationTests.class);
